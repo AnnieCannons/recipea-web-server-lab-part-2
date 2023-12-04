@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs").promises;
 
 const app = express();
-const filePath = "data/recipea-data.json";
+const filePath = "../data/recipea-data.json";
 
 app.listen(3000, () => {
   console.log("Server listening on port 3000.");
@@ -61,7 +61,7 @@ app.get("/find-recipe/:id", async (req, res) => {
 app.delete("/trash-recipe/:id", async (req, res) => {
   const id = Number(req.params.id);
   await deleteRecipe(id);
-  res.send("Recipe with " + id + " has been deleted.");
+  res.send("Recipe with id " + id + " has been deleted.");
 });
 
 app.post("/create-recipe", async (req, res) => {

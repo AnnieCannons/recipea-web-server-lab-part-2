@@ -31,11 +31,29 @@
   {
     "name": "Fried Chicken",
     "cookingMethod": "deep fry",
-    "ingredients": ["chicken", "flour", "salt", "pepper", "garlic", "oil"]
+    "ingredients": [
+      "chicken",
+      "flour",
+      "salt",
+      "pepper",
+      "garlic",
+      "oil"
+    ]
   },
   {
     "name": "Baked Chicken",
     "cookingMethod": "oven bake",
-    "ingredients": ["chicken", "salt", "pepper", "garlic", "oil"]
+    "ingredients": [
+      "chicken",
+      "salt",
+      "pepper",
+      "garlic",
+      "oil"
+    ]
+  },
+  {
+    "name": "Pumpkin Cheesecake",
+    "cookingMethod": "bake in oven",
+    "ingredients": "Cream cheese, light brown sugar, Pumpkin puree, eggs, sour cream, all-purpose flour, pumpkin pie spice, salt, and real vanilla extract"
   }
 ]
